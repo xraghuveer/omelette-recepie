@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+body p span {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+}
+h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+h3 {
+  padding-left: 20px;
+  color: hsl(332, 51%, 32%);
+}
+li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.prep-time {
+  font-family: "Outfit", sans-serif;
+  display: block;
+  margin: 20px 20px;
+  padding: 10px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 7px;
+}
+
+.prep-text {
+  color: hsl(24, 5%, 18%);
+}
+img {
+  border-radius: 7px;
+  width: 100%;
+}
+.colored-bullet {
+  display: inline-block;
+  margin-right: 10px;
+  color: hsl(332, 51%, 32%);
+}
+.colored-bullet-brown{
+  display: inline-block;
+  margin-right: 10px;
+  color: hsl(14, 45%, 36%);
+}
+.instructions{
+  font-family: "Outfit", sans-serif;
+}
+.nutrition{
+  font-family: "Outfit", sans-serif;
+}
+.flex{
+  display: flex;
+ 
+}
+hr{
+  color: hsl(30, 18%, 87%);
+}
+.Outfit {
+  font-family: "Outfit", sans-serif;
+}
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
